@@ -1,0 +1,52 @@
+.yaycolour {
+    text-align:center;
+    background-color: thistle;
+    animation-name: gradient;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes gradient {
+    from {background-color: thistle;}
+    to {background-color: powderblue;}
+}
+ul {
+    text-align:left; 
+    display:table; 
+    margin: 0 auto;
+}
+button {
+    background-color: teal;
+    color:white;
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+}
+h1 {
+    font-size: 500%;
+}
+.card {
+    margin: 50px auto;
+    background-color: white;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 5px 5px 5px grey;
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+}
+.card_1 {
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    width: 600px;
+}
+.card_2 {
+    margin: 50px auto;
+    background-color: white;
+    padding: 15px;
+    width: 400px;
+    box-shadow: 5px 5px 5px grey;
+    text-align: center;
+}
